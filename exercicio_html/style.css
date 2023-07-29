@@ -1,0 +1,76 @@
+body {
+    margin: 10vh;
+    padding: 10vh;
+    color: white;
+    background-color: rgb(26, 10, 37);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.formulario-cadastro {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(49, 22, 70);
+    padding: 2vw 0vw;
+    margin: 0;
+    border-radius: 2vw;
+    box-shadow: 4px 4px 3px 2px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    height: 40%;
+    width: 40%;
+}
+
+input {
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    margin-left: none;
+    margin-right: none;
+    border-radius: 0.5vh;
+    width: 100%;
+    border: none;
+    padding: 1vh;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.cadastro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1, label {
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+} 
+
+button {
+    margin-top: 2vh;
+    background-color: rgb(143, 21, 231);
+    color: white;
+    border: rgb(101, 10, 138);
+    padding: 1vw;
+    border-radius: 1vw;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: rgb(101, 10, 138);
+}
+
+@media screen and (max-width: 1024px) {
+    .formulario-cadastro {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+}
+
+}
